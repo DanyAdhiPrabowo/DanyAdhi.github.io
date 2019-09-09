@@ -28,19 +28,6 @@
   font-weight: bold;
 }
 
-
-/*Skil*/
-  #skil .container .row .col-sm-2{
-    border:10px solid white;
-    box-sizing: border-box;
-  }
-  #skil .container .row .col-sm-2 .card-body{
-    font-weight: bold;
-    text-align:center;
-  }
-/*Skil*/
-
-
 /*Home*/      
   #home .jumbotron {
     padding-top: 100px;
@@ -243,7 +230,6 @@
     bottom: 0;
     right: 0;
   }
-
 /*End Pendidikan*/
 
 /*Portfolio*/
@@ -298,7 +284,6 @@
     margin-right: -97px;
     margin-bottom: 6px;
   }
-
 /*End Portfolio*/
 
 /*Contact*/
@@ -332,9 +317,12 @@
 
 
 @media(max-width: 991px){
-  #navbar .container{
-    background-color: gray !important;
-  }
+  /*Navbar*/
+    #navbar .container{
+      /*background-color: gray !important;*/
+    }
+  /*End Navbar*/
+
   /*Home*/
     #home .jumbotron {
       height: 500px; 
@@ -375,19 +363,18 @@
 
 /*TABLET*/
 @media (max-width: 767px) {
-
-  #navbar .container{
-    background-color: green !important;
-  }
+  /*Navbar*/
+    #navbar .container{
+      /*background-color: green !important;*/
+    }
+  /*End Navbar*/
 
   /*About*/
     #about img{
       width: 393px;
       margin-top: -40px;
       margin-bottom: 20px;
-      /*float: left;*/
     }
-
     #about .text{
       margin-top: 20px;
       display: inline-block;
@@ -419,17 +406,13 @@
 
 
 
-
-
-
-
 /*MOBILE*/
 @media (max-width: 575px) {
-
-  #navbar .container{
-    background-color: coral !important;
-  }
-
+  /*Navbar*/
+    #navbar .container{
+      /*background-color: coral !important;*/
+    }
+    /*End Navbar*/
   h2{
     font-size: 28px;
   }
@@ -453,65 +436,61 @@
   /*End Home*/
 
   /*About*/
-  #about{
-    padding-top: 100px;
-    padding-bottom: 70px;
-  }
-  #about .container .row .col-sm-5{
-    font-size: 15px;  
-  }
-
-  #about img{
-    width: 293px;
-    margin-top: -8px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    float: left;
-  }
-  #about .text{
-    font-size: 14px;
-    margin-left: 40px;
-  }
-
-  #about .buble1{   /*dibawah svg profile*/
-    margin-top: 205px;
-    width: 320px;
-    margin-left: 60px;
-  } 
-
-  #about .title::before{
-    transform: translateY(56px);
-  }
+    #about{
+      padding-top: 100px;
+      padding-bottom: 70px;
+    }
+    #about .container .row .col-sm-5{
+      font-size: 15px;  
+    }
+    #about img{
+      width: 293px;
+      margin-top: -8px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+      float: left;
+    }
+    #about .text{
+      font-size: 14px;
+      margin-left: 40px;
+    }
+    #about .buble1{   /*dibawah svg profile*/
+      margin-top: 205px;
+      width: 320px;
+      margin-left: 60px;
+    } 
+    #about .title::before{
+      transform: translateY(56px);
+    }
+  /*End About*/
 
   /*Pendidikan*/
-  #pendidikan .title::before{
-    transform: translateY(55px);
-    width: 316px;
-  }
-
-  #pendidikan h4{
-    font-size: 18px;
-  }
-  #pendidikan span{
-    font-size: 16px;
-  }
-  #pendidikan .col-lg-9{
-    font-size: 14px;
-  }
-
+    #pendidikan .title::before{
+      transform: translateY(55px);
+      width: 316px;
+    }
+    #pendidikan h4{
+      font-size: 18px;
+    }
+    #pendidikan span{
+      font-size: 16px;
+    }
+    #pendidikan .col-lg-9{
+      font-size: 14px;
+    }
+  /*End Pendidikan*/
+  
   /*portfolio*/
-  #portfolio .title::before{
-    transform: translateY(55px);
-  }
-  #portfolio .container .row .col-md .card{
-    margin-bottom: 40px;
-    width: 70%;
-  }
+    #portfolio .title::before{
+      transform: translateY(55px);
+    }
+    #portfolio .container .row .col-md .card{
+      margin-bottom: 40px;
+      width: 70%;
+    }
 
-  #portfolio .container .row .col-md {
-    content: center;
-  }
-
+    #portfolio .container .row .col-md {
+      content: center;
+    }
+  /*End Portfolio*/
 }
-
-
