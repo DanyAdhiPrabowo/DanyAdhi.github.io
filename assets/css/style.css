@@ -4,7 +4,6 @@
     padding-bottom: 60px;
     background-color: #1C1D21
 }
-
 .footer-follow {
     text-align: center;
     margin-bottom: 20px;
@@ -14,7 +13,6 @@
     margin-right: 10px;
     margin-bottom: 13px;
 }
-
 .footer-follow li a {
   display: inline-block;
   width: 50px;
@@ -25,7 +23,6 @@
   background-color: #6195FF;
   color:#FFF;
 }
-
 .footer-copyright p {
     text-align: center;
     font-size: 14px;
@@ -33,9 +30,12 @@
     color:#868F9B;
 }
 
+section{
+  min-height: 420px;
+}
 
 
-  /*Back to UP*/
+/*Back to UP*/
   #myBtn {
   display: none;
   position: fixed;
@@ -47,23 +47,24 @@
   outline: none;
   cursor: pointer;
   border-radius: 4px;
-}
+  }
 
-#myBtn:hover {
-  background-color: #555;
-}
+  #myBtn:hover {
+    background-color: #555;
+  }
+/*End Back to UP*/
 
-
-#navbar .navbar .container .navbar-brand{
-  color: #f1f9f5;
-  font-style: italic;
-  font-family: arial-sans;
-}
-
-.active{
-  color: white;
-  font-weight: bold;
-}
+/*Navbar*/
+  #navbar .navbar .container .navbar-brand{
+    color: #f1f9f5;
+    font-style: italic;
+    font-family: arial-sans;
+  }
+  .active{
+    color: white;
+    font-weight: bold;
+  }
+/*Navbar*/
 
 /*Home*/      
   #home .jumbotron {
@@ -77,20 +78,13 @@
     background-attachment: fixed;
     background-size: cover;
   }
-
   #home .jumbotron .container p, h1{
     font-weight: bold;
   }
-
-  section{
-    min-height: 420px;
-  }
-
   #home #gambar{
     z-index: 12;
     box-shadow: 1px, 1px, 1px blue;
   }
-
   #home .jumbotron .container{
     position: relative;
     z-index: 2;
@@ -106,7 +100,6 @@
       z-index: 999;
       fill: white;
   }
-
   #home .buble1{
     height: 50%;
     width: 500px;
@@ -295,8 +288,13 @@
     display: block;
     transform: translateY(14px);
   }
-  #portfolio .container .row .col-md .card{
-    box-shadow: 0 0 8px #757D75;
+  #portfolio .container .card{
+    min-height: 358px;  
+  }
+  #portfolio .container .card-hover:hover{
+    position: relative !important;
+    margin-top: -10px !important;
+    margin-left: -10px !important;
   }
   #portfolio img{
     height: 250px;
@@ -304,7 +302,6 @@
   .muncul-gambar{
     opacity: 1;
   }
-
   #portfolio p{
     color: black;
     font-weight: bold;
