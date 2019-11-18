@@ -1,8 +1,23 @@
+.font-slabo{
+  font-family: 'Crimson Text', serif;
+}
+.font-opensans{
+  font-family: 'Open Sans', sans-serif;
+}
+.font-neuton{
+  font-family: 'Neuton', serif;
+}
+.title{
+  font-family: 'Neuton', serif;
+
+}
+
+
 #footer {
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #1C1D21
+    background-color: #2F3033
 }
 .footer-follow {
     text-align: center;
@@ -150,6 +165,7 @@ section{
   }
   #about .title{
     color: #483f3f;
+
   }
   #about .title::before{
     content:'';
@@ -232,7 +248,7 @@ section{
     content:'';
     background:#5e8bf2;
     height: 5px;
-    width: 350px;
+    width: 332px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -383,6 +399,7 @@ section{
     #about .text{
       text-align: left !important;
       font-size: 15.3px;
+
     }
     #about .buble2{ /*sebelah kanan text*/
       height: 270px;
